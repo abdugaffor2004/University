@@ -7,6 +7,8 @@ void easyPointers(){
 
    int *pa = &a;
 
+   char *pchar;
+
    cout << "a: " << a << endl;
    cout << "pa: " << pa << endl;
    cout << "*pa: " << *pa << endl;
@@ -19,10 +21,11 @@ void easyPointers(){
 
 void arrayPointer(){
     int size = 10;
-    int *arr = new int[size]; // 
+    int *arr = new int[size];
 
     for(int i=0; i<size; i++){
         cout << *(arr + i) << endl;
+        cout << arr + i << endl;
     }
 };
 
