@@ -52,14 +52,14 @@ public:
             cout<< "Invalid input for complex number" << endl;
         }
 
-        int pos = i_ptr - str;
+        int pos = i_ptr - str; 
 
         real_str = new char[pos + 1];
-        strncpy(real_str, str, pos);// Следующий фрагмент кода копирует максимум pos символов из строки str в real_str, тем самым гарантируя, что выхода за границы массива не произойдет
+        strncpy(real_str, str, pos);// Следующий фрагмент кода копирует максимум pos символов из строки str в real_str
         real_str[pos] = 0;
 
         imag_str = new char[strlen(str) - pos];
-        strcpy(imag_str, i_ptr + 1);
+        strcpy(imag_str, i_ptr -1);
     }
 
     ~Complex() {
@@ -76,7 +76,7 @@ int main() {
     String str("Hello");
     str.print();
 
-    Complex c("2.3+i4.5");
+    Complex c("2.3-i4.2");
     c.print();
 
     return 0;

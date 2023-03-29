@@ -62,13 +62,13 @@ int main(){
 // ----------------------------------------------
 
 
-    // void (Apple:: *showColor_p)(); // Указатель на функцию (4 задание)
+    void (Apple:: *showColor_p)(); // Указатель на функцию (4 задание)
 
-    // showColor_p = Apple::showColor;
+    showColor_p = Apple::showColor;
 
-    // Apple apple_1("black"); 
-    //     (apple_1.*showColor_p)();
-    //     cout << Apple::getCount() << endl;
+    Apple apple_4("black"); 
+    (apple_4.*showColor_p)();
+    cout << Apple::getCount() << endl;
 
 
 };
