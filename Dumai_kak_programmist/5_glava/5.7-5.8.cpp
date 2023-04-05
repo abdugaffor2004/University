@@ -78,6 +78,9 @@ int main()
     myList.addNode(12, 80);
     
     //myList.printList();           //Выводит информацию о всех студентах
+
+    
+
     myList.printStudInRangeOf(70, 100);   //Выводит информацию в выбранном диапозоне
     return 0;
 }

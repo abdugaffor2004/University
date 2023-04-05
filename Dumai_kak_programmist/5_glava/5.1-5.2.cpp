@@ -19,7 +19,7 @@ private:
         cout << "Year of production: " << _producedYear<< endl;
     }
 
-    public: 
+public: 
 
     void setProducerName(string value){
         _producerName = value;
