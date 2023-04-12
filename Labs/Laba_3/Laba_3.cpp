@@ -112,11 +112,11 @@ int main(){
     S_2.display();
     // -------------------------------------------------------------------------
 
-    CollegeStudent S_3("Lutfillaev A.S.", 'M', 18, "Computer Science", "Software engineer", 1);
+    CollegeStudent S_3("Ivanov I.I.", 'M', 24, "Computer Science", "Software engineer", 1);
     S_3.display();
     //--------------------------------------------------------------------------
 
-    PostgraduateStudent S_4("Lutfillaev A.S.", 'M', 18, "Cloud techologies", "Mr. John");
+    PostgraduateStudent S_4("Pupkina N.V.", 'W', 27, "Cloud techologies", "Mr. John");
     S_4.display();
 
 }
